@@ -1,3 +1,4 @@
+// a solver for a single equation
 pub struct ODE {
     right: String,
 }
@@ -5,6 +6,11 @@ pub struct ODE {
 impl ODE {
     pub fn new(right: String) -> Self {
         Self { right }
+    }
+
+    // init
+    fn parse() -> Result<(), String> {
+        Err("TODO".to_string())
     }
 }
 
